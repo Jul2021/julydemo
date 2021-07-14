@@ -1,0 +1,218 @@
+[
+  {
+    "additionalCapabilities": null,
+    "availabilitySet": null,
+    "billingProfile": null,
+    "diagnosticsProfile": null,
+    "evictionPolicy": null,
+    "extendedLocation": null,
+    "extensionsTimeBudget": null,
+    "hardwareProfile": {
+      "vmSize": "Standard_B1s"
+    },
+    "host": null,
+    "hostGroup": null,
+    "id": "/subscriptions/8d4847a9-69e0-421a-a34c-bdbe015475c7/resourceGroups/ProjectA-RG/providers/Microsoft.Compute/virtualMachines/cloudops-Avm2",
+    "identity": null,
+    "instanceView": null,
+    "licenseType": null,
+    "location": "eastus",
+    "name": "cloudops-Avm2",
+    "networkProfile": {
+      "networkApiVersion": null,
+      "networkInterfaceConfigurations": null,
+      "networkInterfaces": [
+        {
+          "deleteOption": null,
+          "id": "/subscriptions/8d4847a9-69e0-421a-a34c-bdbe015475c7/resourceGroups/ProjectA-RG/providers/Microsoft.Network/networkInterfaces/cloudops-nic-Avm2",
+          "primary": false,
+          "resourceGroup": "ProjectA-RG"
+        }
+      ]
+    },
+    "osProfile": {
+      "adminPassword": null,
+      "adminUsername": "azuser",
+      "allowExtensionOperations": true,
+      "computerName": "cloudops-Avm2",
+      "customData": null,
+      "linuxConfiguration": {
+        "disablePasswordAuthentication": true,
+        "patchSettings": {
+          "assessmentMode": "ImageDefault",
+          "patchMode": "ImageDefault"
+        },
+        "provisionVmAgent": true,
+        "ssh": {
+          "publicKeys": [
+            {
+              "keyData": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCf0gFQ8CTbNKR5/gCK7feY4YzTnWJQjqKf4SsKukH4TlmhWZKd8cE8249BY3ZUgeqOOa14jtqT3j9JAT0lOXeTcSZEpbG/y56LxbCErcQcQrNQCTrqMMq0zL757odJaaoJgXzJ6bK9l9BGbs/GmofVpiuwFinQBy57ic/SNCbbQNOPfnDW35XzwfpApHLnGboaZjzo9uGbJsLBdwMRqW1Sj8oAeYZdtsQYuKBShqG+y2VVo7XzG1DzWf4/RVyO+Y7A5NbXKaUwsOPEXDtr1HIRQnsGs2HDRfqySzlX23rphmzyYl0wHhxDTavzWzesKtFuHSPeZ+w3CQSc6o+zkeAB kiran@kmachine\n",
+              "path": "/home/azuser/.ssh/authorized_keys"
+            }
+          ]
+        }
+      },
+      "requireGuestProvisionSignal": true,
+      "secrets": [],
+      "windowsConfiguration": null
+    },
+    "plan": null,
+    "platformFaultDomain": null,
+    "priority": null,
+    "provisioningState": "Succeeded",
+    "proximityPlacementGroup": null,
+    "resourceGroup": "ProjectA-RG",
+    "resources": null,
+    "scheduledEventsProfile": null,
+    "securityProfile": null,
+    "storageProfile": {
+      "dataDisks": [],
+      "imageReference": {
+        "exactVersion": "18.04.202106220",
+        "id": null,
+        "offer": "UbuntuServer",
+        "publisher": "Canonical",
+        "sku": "18.04-LTS",
+        "version": "latest"
+      },
+      "osDisk": {
+        "caching": "ReadWrite",
+        "createOption": "FromImage",
+        "deleteOption": null,
+        "diffDiskSettings": null,
+        "diskSizeGb": null,
+        "encryptionSettings": null,
+        "image": null,
+        "managedDisk": {
+          "diskEncryptionSet": null,
+          "id": "/subscriptions/8d4847a9-69e0-421a-a34c-bdbe015475c7/resourceGroups/ProjectA-RG/providers/Microsoft.Compute/disks/cloudops-Avm2-osdisk",
+          "resourceGroup": "ProjectA-RG",
+          "storageAccountType": null
+        },
+        "name": "cloudops-Avm2-osdisk",
+        "osType": "Linux",
+        "vhd": null,
+        "writeAcceleratorEnabled": false
+      }
+    },
+    "tags": {
+      "CostCenter": "ProjectA-IT",
+      "DeployMode": "Terraform",
+      "Environment": "Staging",
+      "Project": "ProjectA"
+    },
+    "type": "Microsoft.Compute/virtualMachines",
+    "userData": null,
+    "virtualMachineScaleSet": null,
+    "vmId": "74d4faab-159e-4ae2-bfde-e7bb04dfdd9a",
+    "zones": null
+  },
+  {
+    "additionalCapabilities": null,
+    "availabilitySet": null,
+    "billingProfile": null,
+    "diagnosticsProfile": null,
+    "evictionPolicy": null,
+    "extendedLocation": null,
+    "extensionsTimeBudget": null,
+    "hardwareProfile": {
+      "vmSize": "Standard_B1s"
+    },
+    "host": null,
+    "hostGroup": null,
+    "id": "/subscriptions/8d4847a9-69e0-421a-a34c-bdbe015475c7/resourceGroups/ProjectA-RG/providers/Microsoft.Compute/virtualMachines/cloudops-bastionA",
+    "identity": null,
+    "instanceView": null,
+    "licenseType": null,
+    "location": "eastus",
+    "name": "cloudops-bastionA",
+    "networkProfile": {
+      "networkApiVersion": null,
+      "networkInterfaceConfigurations": null,
+      "networkInterfaces": [
+        {
+          "deleteOption": null,
+          "id": "/subscriptions/8d4847a9-69e0-421a-a34c-bdbe015475c7/resourceGroups/ProjectA-RG/providers/Microsoft.Network/networkInterfaces/cloudops-nic-bastionA",
+          "primary": false,
+          "resourceGroup": "ProjectA-RG"
+        }
+      ]
+    },
+    "osProfile": {
+      "adminPassword": null,
+      "adminUsername": "azuser",
+      "allowExtensionOperations": true,
+      "computerName": "cloudops-bastionA",
+      "customData": null,
+      "linuxConfiguration": {
+        "disablePasswordAuthentication": true,
+        "patchSettings": {
+          "assessmentMode": "ImageDefault",
+          "patchMode": "ImageDefault"
+        },
+        "provisionVmAgent": true,
+        "ssh": {
+          "publicKeys": [
+            {
+              "keyData": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCf0gFQ8CTbNKR5/gCK7feY4YzTnWJQjqKf4SsKukH4TlmhWZKd8cE8249BY3ZUgeqOOa14jtqT3j9JAT0lOXeTcSZEpbG/y56LxbCErcQcQrNQCTrqMMq0zL757odJaaoJgXzJ6bK9l9BGbs/GmofVpiuwFinQBy57ic/SNCbbQNOPfnDW35XzwfpApHLnGboaZjzo9uGbJsLBdwMRqW1Sj8oAeYZdtsQYuKBShqG+y2VVo7XzG1DzWf4/RVyO+Y7A5NbXKaUwsOPEXDtr1HIRQnsGs2HDRfqySzlX23rphmzyYl0wHhxDTavzWzesKtFuHSPeZ+w3CQSc6o+zkeAB kiran@kmachine\n",
+              "path": "/home/azuser/.ssh/authorized_keys"
+            }
+          ]
+        }
+      },
+      "requireGuestProvisionSignal": true,
+      "secrets": [],
+      "windowsConfiguration": null
+    },
+    "plan": null,
+    "platformFaultDomain": null,
+    "priority": null,
+    "provisioningState": "Succeeded",
+    "proximityPlacementGroup": null,
+    "resourceGroup": "ProjectA-RG",
+    "resources": null,
+    "scheduledEventsProfile": null,
+    "securityProfile": null,
+    "storageProfile": {
+      "dataDisks": [],
+      "imageReference": {
+        "exactVersion": "18.04.202106220",
+        "id": null,
+        "offer": "UbuntuServer",
+        "publisher": "Canonical",
+        "sku": "18.04-LTS",
+        "version": "latest"
+      },
+      "osDisk": {
+        "caching": "ReadWrite",
+        "createOption": "FromImage",
+        "deleteOption": null,
+        "diffDiskSettings": null,
+        "diskSizeGb": null,
+        "encryptionSettings": null,
+        "image": null,
+        "managedDisk": {
+          "diskEncryptionSet": null,
+          "id": "/subscriptions/8d4847a9-69e0-421a-a34c-bdbe015475c7/resourceGroups/ProjectA-RG/providers/Microsoft.Compute/disks/cloudops-bastionA-osdisk",
+          "resourceGroup": "ProjectA-RG",
+          "storageAccountType": null
+        },
+        "name": "cloudops-bastionA-osdisk",
+        "osType": "Linux",
+        "vhd": null,
+        "writeAcceleratorEnabled": false
+      }
+    },
+    "tags": {
+      "CostCenter": "ProjectA-IT",
+      "DeployMode": "Terraform",
+      "Environment": "Development",
+      "Project": "ProjectA"
+    },
+    "type": "Microsoft.Compute/virtualMachines",
+    "userData": null,
+    "virtualMachineScaleSet": null,
+    "vmId": "ea4fa531-605c-468f-a10b-091302dd4d13",
+    "zones": null
+  }
+]

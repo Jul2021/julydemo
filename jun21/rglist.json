@@ -1,0 +1,122 @@
+[
+  {
+    "id": "/subscriptions/8d4847a9-69e0-421a-a34c-bdbe015475c7/resourceGroups/cloud-shell-storage-centralindia",
+    "location": "centralindia",
+    "managedBy": null,
+    "name": "cloud-shell-storage-centralindia",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/8d4847a9-69e0-421a-a34c-bdbe015475c7/resourceGroups/LearnAZ",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "LearnAZ",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {},
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/8d4847a9-69e0-421a-a34c-bdbe015475c7/resourceGroups/DefaultResourceGroup-EUS",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "DefaultResourceGroup-EUS",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/8d4847a9-69e0-421a-a34c-bdbe015475c7/resourceGroups/ProjectA-RG",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "ProjectA-RG",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "CostCenter": "ProjectA-IT",
+      "DeployMode": "Terraform",
+      "Environment": "Development",
+      "Project": "ProjectA"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/8d4847a9-69e0-421a-a34c-bdbe015475c7/resourceGroups/ProjectB-RG",
+    "location": "westus",
+    "managedBy": null,
+    "name": "ProjectB-RG",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "CostCenter": "ProjectA-IT",
+      "DeployMode": "Terraform",
+      "Environment": "Development",
+      "Project": "ProjectA"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/8d4847a9-69e0-421a-a34c-bdbe015475c7/resourceGroups/Monitoring",
+    "location": "eastasia",
+    "managedBy": null,
+    "name": "Monitoring",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {},
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/8d4847a9-69e0-421a-a34c-bdbe015475c7/resourceGroups/NetworkWatcherRG",
+    "location": "australiaeast",
+    "managedBy": null,
+    "name": "NetworkWatcherRG",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/8d4847a9-69e0-421a-a34c-bdbe015475c7/resourceGroups/InfraBase",
+    "location": "australiaeast",
+    "managedBy": null,
+    "name": "InfraBase",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/8d4847a9-69e0-421a-a34c-bdbe015475c7/resourceGroups/KB-UAT",
+    "location": "australiaeast",
+    "managedBy": null,
+    "name": "KB-UAT",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/8d4847a9-69e0-421a-a34c-bdbe015475c7/resourceGroups/KB-PROD",
+    "location": "australiaeast",
+    "managedBy": null,
+    "name": "KB-PROD",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  }
+]
