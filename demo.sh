@@ -54,4 +54,4 @@ az vm create --name $vmname --resource-group  $resourceGroup \
 
 # Let's create a VNET
 
-az network vnet create --resource-group $RG 
+az network vnet create --resource-group $RG --location $LOCATION --address-prefixes "10.10.1.0/20"
