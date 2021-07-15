@@ -50,3 +50,8 @@ az vm create --name $vmname --resource-group  $resourceGroup \
             --image UbuntuLTS --vnet-name $vnetName --subnet $subnet1 \
             --admin-user $adminuser --ssh-key-values /opt/lab/keys/id_az.pub \
             --nsg $webNsg
+
+
+# Let's create a VNET
+
+az network vnet create --resource-group $RG 
